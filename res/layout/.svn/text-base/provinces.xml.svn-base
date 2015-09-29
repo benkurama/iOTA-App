@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+        <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="@string/initializing"></TextView>
+        <EditText android:layout_height="wrap_content" android:inputType="phone" android:layout_below="@+id/tvSample" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:id="@+id/d_etMobtel">
+
+            <requestFocus android:layout_width="wrap_content" >
+</requestFocus>
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvUrlCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/d_etMobtel"
+            android:text="@string/tvWebUrlCaption" />
+
+        <EditText
+            android:id="@+id/etWebUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUrlCaption"
+            android:ems="10" />
+
+        <TextView android:id="@+id/tvSample" android:text="@string/enteriotanum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"></TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etWebUrl"
+            android:text="@string/pickprovinces" >
+</TextView>
+
+        <ListView
+            android:id="@+id/d_lvProvinces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/d_btnOK"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3" >
+
+</ListView>
+
+        <Button
+            android:id="@+id/d_btnOK"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/OK" />
+    
+</RelativeLayout>

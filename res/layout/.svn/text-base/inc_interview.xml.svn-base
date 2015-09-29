@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/backgradient_menu_header01" >
+
+        <TextView
+            android:id="@+id/tvSample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/head_interview" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSellingGlobeLoad"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android:id="@+id/spnSellingGlobeLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android1:entries="@array/sellingload" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/GlobeLoad"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android1:id="@+id/etGlobeLoad"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:ems="10"
+        android1:inputType="number"
+        android1:maxLength="7" >
+
+    </EditText>
+
+    <TextView
+        android1:id="@+id/textView5"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/tvFrequencyOfPurchaseGlobe"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android1:id="@+id/spnFopGlobe"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/howoften" />
+
+    <View
+        android1:id="@+id/view1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="1dp"
+        android1:layout_marginLeft="5dp"
+        android1:layout_marginRight="5dp"
+        android1:background="#555" />
+
+    <TextView
+        android1:id="@+id/TextView06"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/tvSellingSmartLoad"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android1:id="@+id/spnSellingSmartLoad"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/sellingload" />
+
+    <TextView
+        android1:id="@+id/TextView03"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/SmartLoad"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android1:id="@+id/etSmartLoad"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:ems="10"
+        android1:inputType="number"
+        android1:maxLength="7" >
+
+    </EditText>
+
+    <TextView
+        android1:id="@+id/TextView01"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/tvFrequencyOfPurchaseSmart"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android1:id="@+id/spnSMARTtnt"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/howoften" />
+
+    <View
+        android1:id="@+id/View01"
+        android1:layout_width="wrap_content"
+        android1:layout_height="1dp"
+        android1:layout_marginLeft="5dp"
+        android1:layout_marginRight="5dp"
+        android1:background="#555" />
+
+    <TextView
+        android1:id="@+id/TextView02"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/tvSellingSunLoad"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android1:id="@+id/spnSellingSunLoad"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/sellingload" />
+    
+    <TextView
+        android1:id="@+id/TextView04"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/SunLoad"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android1:id="@+id/etSunLoad"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:ems="10"
+        android1:inputType="number"
+        android1:maxLength="7" />
+    
+     <TextView
+         android1:id="@+id/TextView05"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:text="@string/tvFrequencyOfPurchaseSun"
+         android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android1:id="@+id/spnSun"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/howoften" />
+
+    <LinearLayout
+        android1:id="@+id/retailerOptionHide"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:orientation="vertical"
+        android1:visibility="gone" >
+
+        
+    </LinearLayout>
+
+</LinearLayout>

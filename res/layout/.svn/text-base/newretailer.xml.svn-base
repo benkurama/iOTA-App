@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/d_llMain">
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/textView10" android:text="@string/NewRetailer"></TextView>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tvSample" android:text="@string/RetailerName"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/d_etName" android:maxLength="45">
+            <requestFocus></requestFocus>
+        </EditText>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:text="@string/RetailerMobtel"></TextView>
+	    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone" android:id="@+id/d_etMobtel" android:maxLength="11"></EditText>
+	    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView8" android:text="@string/CustSubType"></TextView>
+	    <Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/d_ddlCustSubType" android:entries="@array/custsubtypes"></Spinner>
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView3" android:text="@string/RetailerAddress"></TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView4" android:text="@string/Number"></TextView>
+	    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/d_etNo" android:maxLength="45"></EditText>
+	    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView5" android:text="@string/Street"></TextView>
+	    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/d_etStreet" android:maxLength="160"></EditText>
+	    <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView9" android:text="@string/Province"></TextView>
+	    <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/d_ddlProvince"></Spinner>
+	    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView6" android:text="@string/City"></TextView>
+	    <Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/d_ddlCity"></Spinner>
+	    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView7" android:text="@string/Barangay"></TextView>
+	    <Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/d_ddlBarangay"></Spinner>
+	    <TextView android:layout_width="wrap_content" android:id="@+id/textView11" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/Remarks"></TextView>
+	    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:id="@+id/d_etRemarks" android:lines="3" android:maxLength="45"></EditText>
+	    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/VisibleStock" android:id="@+id/d_tvVisibleStock"></TextView>
+	   <!--  <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/AveSales" android:id="@+id/d_tvAveSales"></TextView>
+	    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:id="@+id/textView12" android:text="@string/SmTnT"></TextView> -->
+	    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal" android:id="@+id/d_etAveSalesSm" android:maxLength="10"></EditText>
+	    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:id="@+id/textView13" android:text="@string/Sun"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal" android:id="@+id/d_etAveSalesSun" android:maxLength="10"></EditText>
+	    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+	        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/d_btnSend" android:text="@string/Send"></Button>
+	        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/d_btnCancel" android:text="@string/Cancel"></Button>
+	    </LinearLayout>
+    </LinearLayout>
+    
+</ScrollView>

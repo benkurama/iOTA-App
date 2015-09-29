@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sizeofstore"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Spinner
+            android:id="@+id/d_ddlSizeStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/storesizes" />
+
+        
+
+        <CheckBox
+            android:id="@+id/d_cbMerchPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/globe_merchandise" />
+
+        <CheckBox
+            android:id="@+id/d_cbMerchDominant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/globe_merchandise_dominant" />
+
+</LinearLayout>

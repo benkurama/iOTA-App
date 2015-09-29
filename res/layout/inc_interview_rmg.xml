@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android1:id="@+id/view2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="1dp"
+        android1:layout_marginBottom="5dp"
+        android1:layout_marginTop="5dp"
+        android1:background="#555" />
+    
+    <Spinner
+        android1:id="@+id/spnLoadCateg"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:entries="@array/loadCategoryOptions" />
+
+
+<LinearLayout
+        android1:id="@+id/llLinearGlobe"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:orientation="vertical" >
+
+        <RadioGroup
+            android1:id="@+id/rgGlobeSelections"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content" >
+
+            <RadioButton
+                android1:id="@+id/rdoGlobeRet"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:checked="true"
+                android1:text="@string/GlobeRetailerRadio" />
+
+            <TextView
+                android1:id="@+id/etGlobeRetNum"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:text="@string/RetailerNumber" />
+
+            <EditText
+                android1:id="@+id/etGlobeRetailerNum"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:layout_marginRight="10dp"
+                android1:ems="10"
+                android1:inputType="number"
+                android1:maxLength="11" />
+
+            <RadioButton
+                android1:id="@+id/rdoGlobeRefuse"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/RetailerRefuseRadio" />
+
+            <CheckBox
+                android1:id="@+id/cbGlobeRefuse"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:text="@string/RefuseTestBuy" />
+
+            <RadioButton
+                android1:id="@+id/rdoGlobeNon"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/NonGlobeRetailer" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+ <LinearLayout
+     android1:id="@+id/llLinear1Sim"
+     android1:layout_width="match_parent"
+     android1:layout_height="wrap_content"
+     android1:orientation="vertical"
+     android1:visibility="gone" >
+
+        <RadioGroup
+            android1:id="@+id/rg1SimSelections"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content" >
+
+            <RadioButton
+                android1:id="@+id/rdoOneSimRet"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:checked="true"
+                android1:text="@string/OneSimRet" />
+
+            <TextView
+                android1:id="@+id/textView2"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:text="@string/RetailerNumber" />
+
+            <EditText
+                android1:id="@+id/etOneSimRetailerNum"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:layout_marginRight="10dp"
+                android1:layout_weight="1"
+                android1:inputType="number"
+                android1:maxLength="11" />
+
+            <RadioButton
+                android1:id="@+id/rdoOneSimRefuse"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/OneSimeRefuse" />
+
+            <CheckBox
+                android1:id="@+id/cbOneSimRefuse"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:text="@string/RefuseTestBuy" />
+
+            <TextView
+                android1:id="@+id/textView3"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:text="@string/OneSimTraceNo" />
+
+            <EditText
+                android1:id="@+id/etOneSimTraceNo"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="10dp"
+                android1:layout_marginRight="10dp"
+                android1:ems="10"
+                android1:inputType="number"
+                android1:maxLength="15" />
+
+            <RadioButton
+                android1:id="@+id/rdoOneSimNonGlobe"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/NonGlobeRetailer" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TelOrMobtel"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/etTelOrMobtel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/owner_name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/etOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 .-&apos;"
+        android:ems="10"
+        android:inputType="text" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/backgradient_menu_header01" />
+
+    <TableLayout
+        android1:id="@+id/tblTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvSample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TakeAPicture"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnPictureTake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCameraOpen"
+                android:text="@string/OpenCamera" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ivImageIcon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_span="2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/no_image" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

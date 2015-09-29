@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="custsubtypes">
+		<item>Sari Sari Store</item>
+		<item >Bakery/Eatery</item>
+		<item >School/Office Supply</item>
+		<item >Internet/Game Shop</item>
+		<item >Cellphone/Repair Shop</item>
+		<item >Salon/Barber Shop</item>
+		<item >Tiange (telco)</item>
+		<item >Auto Repair Shop</item>
+		<item >Gasoline/LPG Station</item>
+		<item>Public Market - Dry Goods</item>
+		<item>Laundry Shop</item>
+		<item>Others</item>
+	</string-array>
+	
+	<string-array name="storelocation">
+		<item>Main Road</item>
+		<item>Inner Road</item>
+	</string-array>
+	
+	<string-array name="sellingload">
+	    <item>Yes</item>
+	    <item>No</item>
+	</string-array>
+	
+	<string-array name="howoften">
+	    <item></item>
+	    <item>Every day</item>
+	    <item>Every 2 days</item>
+	    <item>Twice a week</item>
+	    <item>Once a week</item>
+	    <item>3x a month</item>
+	    <item>Twice a month</item>
+	    <item>Once a month or less</item>
+	</string-array>
+	
+	<string-array name="sellingsim">
+	    <item>Selling but not displayed</item>
+	    <item>Selling and displayed</item>
+	    <item>Selling but no stocks</item>
+	    <item>Not selling</item>
+	</string-array>
+	
+	<string-array name="refuseOptions">
+	    <item>Refused to give number</item>
+	    <item>Refused test buy</item>
+	</string-array>
+	
+	<string-array name="loadCategoryOptions">
+	    <item >Globe Retailer</item>
+	    <item>1 SIM For All Load</item>
+	</string-array>
+	
+</resources>

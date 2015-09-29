@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="150">Sari Sari Store</string>
+<string name="155">Bakery/Eatery</string>
+<string name="500">School/Office Supply</string>
+<string name="205">Internet/Game Shop</string>
+<string name="501">Cellphone/Repair Shop</string>
+<string name="502">Salon/Barber Shop</string>
+<string name="400">Tiange (telco)</string>
+<string name="503">Auto Repair Shop</string>
+<string name="504">Gasoline/LPG Station</string>
+<string name="151">Public Market - Dry Goods</string>
+<string name="505">Laundry Shop</string>
+<string name="506">Others</string>
+<string name="224">Pawnshop</string>
+<string name="402">Semi-fixed</string>
+<string name="403">Houselet</string>
+<string name="404">Office</string>
+</resources>

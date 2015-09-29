@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+	    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/iotagpslogo" android:id="@+id/ivImageIcon" android:contentDescription="@string/iota"></ImageView>
+
+	    <Button
+	        android:id="@+id/btnChainAccount"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:onClick="onChainAccount"
+	        android:text="@string/btn_Chain_Account" />
+
+	    <Button
+	        android:id="@+id/btnGeneralTrade"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:onClick="onGeneralTrade"
+	        android:text="@string/btn_Genera_Trade" />
+
+	    <Button
+	        android:id="@+id/btnOpenDraft"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:onClick="onOpenDraft"
+	        android:text="@string/btnOpenDraft" />
+
+	    <Button
+	        android:id="@+id/btnPhotoSync"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:onClick="onPhotoSync"
+	        android:text="@string/btnPhotoSync"
+	        android:visibility="gone" />
+
+	    <Button
+	        android:id="@+id/d_btnNewNDSO"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:height="20dp"
+	        android:text="@string/NewNDSO"
+	        android:visibility="gone" >
+</Button>
+
+	    <Button
+	        android:id="@+id/d_btnNewNS"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:height="20dp"
+	        android:text="@string/NewNS"
+	        android:visibility="gone" >
+</Button>
+
+	    <Button
+	        android:id="@+id/d_btnNewFMCG"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/NewFMCG"
+	        android:visibility="gone" >
+</Button>
+
+	    <Button
+	        android:id="@+id/d_btnUpdateRetailer"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/UpdateRetailer"
+	        android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="fmcgsubtypes">
+		<item>Sari-sari store</item>
+		<item>Public market stall</item>
+		<item>Others</item>
+	</string-array>
+</resources>

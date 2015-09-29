@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_webconfig"
+        android:title="Web Configuration" >
+        <!--  Old Codes
+        <EditTextPreference
+            android:key="webconfig"
+            android:summary="Change URL String for getting data connection"
+            android:title="Setup Web Post Configuration" />
+         -->
+		<!-- HOTSPOT BEGIN -->
+        <com.redfoot.iota.preference.WebConnection
+            android:dialogTitle="Photo Syncronization Settings"
+            android:key="webconfig"
+            android:summary="Change URL String for getting data connection"
+            android:title="Setup Web Post Configuration" />
+        <!-- HOTSPOT  -->
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:key="pref_iotanum"
+        android:title="Iota Configuration"
+        >
+        <com.redfoot.iota.preference.UpdateIotaNum 
+            android:dialogTitle="Update iOTA Number"
+            android:key="iotanumber"
+            android:summary="Change old iota number to new one"
+            android:title="Update iOTA Number"
+            />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

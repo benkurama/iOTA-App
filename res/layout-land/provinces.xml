@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/d_etMobtel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvSample"
+            android:hint="@string/enteriotanum"
+            android:inputType="phone" >
+
+            <requestFocus android:layout_width="wrap_content" >
+                
+            </requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/etWebUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/tvWebUrlCaption2" />
+        
+        <TextView android:id="@+id/textView3" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/d_etMobtel" 
+            android:layout_alignParentLeft="true"
+             android:layout_marginTop="12dp" 
+             android:text="@string/pickprovinces">
+            
+            
+            
+        </TextView>
+
+        <ListView
+            android:id="@+id/d_lvProvinces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/tvUrlCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/d_btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/OK" />
+
+    </LinearLayout>
+
+</LinearLayout>

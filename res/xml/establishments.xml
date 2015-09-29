@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="1">High School</string>
+<string name="2">College/University</string>
+<string name="4">Offices</string>
+<string name="8">Industrial/Factories</string>
+<string name="16">Residential</string>
+<string name="32">Transportation</string>
+<string name="64">Market</string>
+<string name="128">None</string>
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  	<LinearLayout
+  	    android:id="@+id/d_llMain"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="vertical" >
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/NewFMCG"
+  	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/RetailerName"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etName"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="text" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/CustSubType"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <Spinner
+  	        android:id="@+id/d_ddlCustSubType"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:entries="@array/custsubtypes" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/interviewed_person"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <Spinner
+  	        android:id="@+id/d_ddlInterviewedPerson"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:entries="@array/interviewed_person" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/name"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etInterviewedName"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="text" >
+
+  	        <requestFocus />
+  	    </EditText>
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/RetailerAddress"
+  	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/Number"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etNo"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="number" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/Street"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etStreet"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="text" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/City"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <Spinner
+  	        android:id="@+id/d_ddlCity"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/Barangay"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <Spinner
+  	        android:id="@+id/d_ddlBarangay"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/telephone"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etInterviewedTelephone"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="phone" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/owner_name"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <EditText
+  	        android:id="@+id/d_etOwnerName"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="text" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/Remarks"
+  	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  	    <EditText
+  	        android:id="@+id/d_etRemarks"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:ems="10"
+  	        android:inputType="textMultiLine"
+  	        android:lines="3" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/sizeofstore"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <Spinner
+  	        android:id="@+id/d_ddlSizeStore"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:entries="@array/storesizes" />
+
+  	    <TextView
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/establishment"
+  	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  	    <ListView
+  	        android:id="@+id/d_lvEstablishment"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="380dp"
+  	        android:choiceMode="multipleChoice"
+  	        tools:ignore="NestedScrolling" >
+  	    </ListView>
+
+  	    <CheckBox
+  	        android:id="@+id/d_cbMerchPresent"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/globe_merchandise" />
+
+  	    <CheckBox
+  	        android:id="@+id/d_cbMerchDominant"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/globe_merchandise_dominant" />
+
+  	    <LinearLayout
+  	        android:id="@+id/linearLayout1"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content" >
+
+  	        <Button
+  	            android:id="@+id/d_btnSend"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:text="@string/Send" />
+
+  	        <Button
+  	            android:id="@+id/d_btnCancel"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:text="@string/Cancel" />
+  	    </LinearLayout>
+  	</LinearLayout>
+
+</ScrollView>

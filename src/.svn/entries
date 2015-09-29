@@ -1,0 +1,34 @@
+10
+
+dir
+4
+https://redfootdev4-pc:8443/svn/android/trunk/workspace/iOTA/src
+https://redfootdev4-pc:8443/svn/android
+
+
+
+2014-05-30T03:50:30.710324Z
+4
+alvin.sison
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1afd0db5-316f-c040-a47c-12423b83da53
+
+com
+dir
+
+utilities
+dir
+

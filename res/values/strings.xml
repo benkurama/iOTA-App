@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">iOTA GPS Mapping</string>
+	<string name="nogps">This application requires GPS to be turned on. Please turn on GPS first.</string>
+	<string name="initializing">Initial Setup</string>
+	<string name="initialwait">Initializing application. This will take several minutes. Please wait…</string>
+	<string name="exitapp">Exit application?</string>
+	<string name="msgsent">Message sent!</string>
+	<string name="senderror">Error sending message. Please make sure you have enough load.</string>
+	<string name="noservice">No network coverage.</string>
+	<string name="radioOff">No radio signal</string>
+	<string name="updateiotanum">Update iOTA Number</string>
+	<string name="enteriotanum">Please enter number of iOTA (09xxxxxxxxx or 2188):</string>
+	<string name="updatediotanum">iOTA Number updated to @NUMBER.</string>
+	<string name="pickprovinces">Please select the provinces in your territory.</string>
+	<string name="alert">Alert</string>
+	<string name="confirmation">Confirmation</string>
+	<string name="question">Question</string>
+    <string name="Send">Send</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+	
+    <string name="NewRetailer">Add New Retailer</string>
+    <string name="UpdateRetailer">Update Existing Retailer</string>
+    <string name="NewNDSO">Add New NDSO Retailer</string>
+    <string name="NewNS">Add New Non-Globe Retailer</string>
+    <string name="NewFMCG">Add FMCG Account</string>
+    
+    <string name="RetailerName">Store Name:*</string>
+    <string name="RetailerMobtel">Retailer Mobtel (09xxxxxxxxx): *</string>
+    <string name="NDSOMobtel">\n\nRetailer mobtel no. for Globe (09xxxxxxxxx):</string>
+    <string name="NDSOMobtel_Editable">\n\nRetailer mobtel no. for Globe (09xxxxxxxxx): *</string><string name="RetailerAddress">\nAddress</string>
+    <string name="Number">Unit No.: *</string>
+    <string name="Street">Street: *</string>
+    <string name="Barangay">Barangay: *</string>
+    <string name="City">City: *</string>
+    <string name="Province">Province: *</string>
+    <string name="CustSubType">Store type: *</string>
+    <string name="VisibleStock">\nSIM Inventory</string>
+    <string name="AveSalesReload">\nAverage weekly reload sales (Total)</string>
+    <string name="GP">GP</string><string name="TM">TM</string><string name="Smart">SMART</string>
+    <string name="TnT">TnT</string><string name="Sun">Sun</string>
+    <string name="AveSalesSim">\n\nAverage weekly SIM sales (Total)</string><string name="Remarks">\nRemarks</string>
+    
+    <string name="nogpslock">Currently unable to obtain GPS coordinates. Please wait or move to a different location for better GPS reception.</string>
+    <string name="ValidateError">Error(s) found in the following field(s):\n\n</string>
+    <string name="NoRetName">Name of the store: Please enter Name of the store.\n\n</string>
+    <string name="NoRetMobtel">Retailer mobtel no. for Globe: Please enter mobtel of retailer for Globe.\n\n</string>
+    <string name="InvRetMobtel">Retailer mobtel no. for Globe: Invalid number format.\n\n</string>
+    <string name="NoRetNo">Unit: Please enter unit number of store\'s address.\n\n</string>
+    <string name="NoRetStreet">Street: Please enter street of store\'s address.\n\n</string>
+    <string name="NoIotaMobtel">Please enter a mobtel.</string>
+    <string name="InvIotaMobtel">Invalid mobtel format (09xxxxxxxxx or 2189).</string>
+    <string name="NoAveSmTnT">Sm/TnT: Please enter ave. daily sales amount.\n</string>
+    <string name="NoAveSun">Sun: Please enter ave. daily sales amount.\n</string>
+    <string name="InvAveSmTnT">Sm/TnT: Invalid amount entered.\n</string>
+    <string name="InvAveSun">Sun: Invalid amount entered.\n</string>
+    
+    <string name="NRMAP">NRMAP3</string>
+    <string name="URMAP">URMAP5</string>
+    <string name="NDSOMAP">NDSOMAP4</string>
+    <string name="NSMAP">NSMAP4</string>
+    <string name="NFMAP">NFMAP2</string>
+    <string name="iota">iOTA</string>
+    <string name="NoProvCheck">Please select province.</string>
+    <string name="NumProvCheck">Please select one province only.</string>
+    <string name="sizeofstore">\n\nSize of store: *</string>
+    <string name="establishment">Nearby Establishments: *</string>
+    <string name="globe_merchandise">Globe merchandise present ?</string>
+    <string name="globe_merchandise_dominant">Is Globe merchandise dominant ?</string>
+    
+    
+    
+    
+    <string name="interviewed_person">Name of Person Interviewed*</string>
+    <string name="name">Name: *</string>
+    <string name="telephone">Telephone: *</string>
+    <string name="owner_name">Owner\'s Name: *</string>
+    
+    <string name="NoStockGP">GP: Please enter SIM Inventory.\n\n</string>
+    <string name="NoStockTM">TM: Please enter SIM Inventory.\n\n</string>
+    <string name="NoStockSm">SMART: Please enter SIM Inventory.\n\n</string>
+    <string name="NoStockTnT">TNT: Please enter SIM Inventory.\n\n</string>
+    <string name="NoStockSun">Sun: Please enter SIM Inventory.\n\n</string>
+    
+    <string name="InvStockGP">Stock - GP: Invalid amount entered.\n\n</string>
+    <string name="InvStockTM">Stock - TM: Invalid amount entered.\n\n</string>
+    <string name="InvStockSm">Stock -SMART: Invalid amount entered.\n\n</string>
+    <string name="InvStockTnT">Stock - TnT: Invalid amount entered.\n\n</string>
+    
+    <string name="InvStockSun">Stock - Sun: Invalid amount entered.\n\n</string>
+    <string name="NoAveReload">Ave. weekly reload sales (Total): Please enter the total ave. weekly reload amount sales.\n\n</string><string name="NoAveReloadGP">Reload - GP: Please enter reload amount sales.\n\n</string><string name="NoAveReloadTM">Reload - TM: Please enter reload amount sales.\n\n</string><string name="NoAveReloadSm">Reload - SMART: Please enter reload amount sales.\n\n</string><string name="NoAveReloadTnT">Reload - TnT: Please enter reload amount sales.\n\n</string><string name="NoAveReloadSun">Reload - Sun: Please enter reload amount sales.\n\n</string><string name="InvAveReload">Ave. weekly reload sales: Invalid amount entered.\n\n</string>
+    <string name="InvAveReloadGP">Reload - GP: Invalid amount entered.\n\n</string>
+    
+    
+    
+    <string name="InvAveReloadTM">Reload - TM: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveReloadSm">Reload - SMART: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveReloadTnT">Reload - TnT: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveReloadSun">Reload - Sun: Invalid amount entered.\n\n</string>
+    <string name="ave_reload">Average weekly reload sales (Total): not equal to the sum of reload sales.\n\n</string>
+    
+    <string name="ave_sim">Average weekly SIMs sales (Total): not equal to the sum of SIMs sales.\n\n</string>
+    <string name="NoAveSim">Ave. weekly SIMs sales (Total): Please enter the total ave. weekly SIMs amount sales.\n\n</string>
+    <string name="NoAveSimGP">SIMs - GP: Please enter SIMs amount sales.\n\n</string><string name="NoAveSimTM">SIMs - TM: Please enter SIMs amount sales.\n\n</string><string name="NoAveSimSm">SIMs - SMART: Please enter SIMs amount sales.\n\n</string><string name="NoAveSimTnT">SIMs - TnT: Please enter SIMs amount sales.\n\n</string><string name="NoAveSimSun">SIMs - Sun: Please enter SIMs amount sales.\n\n</string><string name="InvAveSim">Ave. weekly SIMs sales: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveSimGP">SIMs - GP: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveSimTM">SIMs - TM: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveSimSm">SIMs - SMART: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveSimTnT">SIMs - TnT: Invalid amount entered.\n\n</string>
+    
+    <string name="InvAveSimSun">SIMs - Sun: Invalid amount entered.\n\n</string>
+    <string name="NoInterViewedName">Interviewed person Name: Please enter name of the Interviewed person.\n\n</string><string name="NoTelephone" >Telephone: Please enter your Telephone.\n\n</string><string name="NoOwnerName">&quot;Owner's Name: Please enter name of the Owner.&quot;\n\n</string>
+    
+    
+    
+    <string name="head_observe">OBSERVE</string>
+    <string name="head_introduce">INTRODUCE</string>
+    <string name="head_interview">INTERVIEW</string>
+    
+    <string name="btn_Genera_Trade">General Trade</string>
+    <string name="General_Trade_title">General Trade</string>
+    
+    <string name="btn_Chain_Account">Chain Account</string>
+    <string name="Chain_Account_title">Chain Account</string>
+    <string name="ChainAccStoreName">\nStore Name*</string>
+    
+    <string name="NCAMAP">NCAMAP</string>
+    <string name="GT_store_location">Store Location Type:*</string>
+    <string name="Designation">Owner or Frontliner?*</string>
+    <string name="Selling_load">Selling Load?*</string>
+    <string name="RetailerNumber">(Ex. 09171234567)*</string>
+    
+    <string name="GlobeRetailerRadio">Globe Retailer No.</string>
+    <string name="RetailerRefuseRadio">Refused to give No.</string>
+    <string name="NonGlobeRetailer">Non Globe Retailer</string>
+    
+    <string name="GlobeLoad">Globe Load Amount Purchase*</string>
+    <string name="SmartLoad">Smart Load Amount Purchase*</string>
+    <string name="SunLoad">Sun load Amount Purchase*</string>
+    
+    <string name="FrequenceyOfPurchase">\nFrequency of purchase:</string>
+    <string name="tvFrequencyOfPurchaseGlobe">Frequency of Purchase - Globe*</string>
+    <string name="tvFrequencyOfPurchaseSmart">Frequency of Purchase - Smart*</string>
+    <string name="tvFrequencyOfPurchaseSun">Frequency of Purchase - Sun*</string>
+    
+    <string name="SellingSim">Selling SIMs?*</string>
+    <string name="AbsCbn">ABS-CBN</string>
+    
+    <string name="SimSales">\nWeekly SIM Sales:</string>
+    <string name="TelOrMobtel">\nTel No. or Mobtel*</string>
+    <string name="TakeAPicture">Take a Picture*</string>
+    <string name="OpenCamera">Open a Camera</string>
+    
+    <string name="NoGlobeRetailerNo">Globe Retailer No. is Required\n\n</string>
+    <string name="MissingGlobeRetailerNo">Globe Retailer No. is Incomplete\n\n</string>
+    <string name="InitalNumericValue">0</string>
+    <string name="NoGlobeLoad">Please Enter Globe load value\n\n</string>
+    <string name="NoSmartLoad">Please Enter Smart load value\n\n</string>
+    <string name="NoSunLoad">Please Enter Sun load value\n\n</string>
+    
+    <string name="NoStockAbs">ABS CBN: Please enter SIM Inventory.\n\n</string>
+    
+    <string name="NoSimSalesGP">Globe: Please enter Weekly SIM Sales\n\n</string>
+    <string name="NoSimSalesTM">TM: Please enter Weekly SIM Sales\n\n</string>
+    <string name="NoSimSalesABS">ABS CBN: Please enter Weekly SIM Sales\n\n</string>
+    <string name="NoSimSalesSmart">Smart: Please enter Weekly SIM Sales\n\n</string>
+    <string name="NoSimSalesTnt">TNT: Please enter Weekly SIM Sales\n\n</string>
+    <string name="NoSimSalesSun">Sun: Please enter Weekly SIM Sales\n\n</string>
+    
+    <string name="NoRetTelMobtel">Telephone or Mobtel Number is Required.\n\n</string>
+    <string name="MissingTelMobtel">Telephone or Mobtel Number is Incomplete.\n\n</string>
+    <string name="btnPhotoSync">Synchronize Photos</string>
+    <string name="NoImagePhoto">Take a Picture: Picture of Store is Required\n</string>
+    
+    <string name="btnOpenDraft">General Trade Drafts</string>
+    
+    
+    <string name="tvSellingGlobeLoad">\nSelling Globe Load?*</string>
+    <string name="tvSellingSmartLoad">\nSelling Smart Load?*</string>
+    <string name="tvSellingSunLoad">\nSelling Sun Load?*</string>
+    <string name="tvLoadOptions">\nOption Selections</string>
+    
+    <string name="alertValidGlobeOperators">Invalid Globe - TM Operator Code</string>
+    <string name="NoFrequencyGlobeSel">No Frequency of Purchase - Globe selected\n\n</string>
+    <string name="NoFrequencySmartSel">No Frequency of Purchase - Smart selected\n\n</string>
+    <string name="NoFrequencySunSel">No Frequency of Purchase - Sun Selected\n\n</string>
+    
+    <string name="RefuseTestBuy">Refused Test Buy</string>
+    
+    <string name="SaveDraft">Save to draft</string>
+    <string name="tvWebUrlCaption">Please enter web url for iOTA Photo Synchonization(https://prod.iota-cloud.com/tdname):</string>
+    <string name="tvWebUrlCaption2">Please enter web url for iOTA Photo Synchonization:</string>
+    
+    <string name="NoCities">No Cities Selected\n\n</string>
+    <string name="NoBarangay">No Barangay Selected\n\n</string>
+    
+    <string name="OneSimRet">1 SIM For All No.</string>
+    <string name="OneSimeRefuse">Refuse to give No.</string>
+    <string name="OneSimTraceNo">Trace No. (from test buy)</string>
+    
+    <string name="NoOneSimRetailerNum">1 Sim Retailer No. is Required\n\n</string>
+    <string name="IncompleteOnSimRetailerNum">1 Sim Retailer No. is incomplete\n\n</string>
+    <string name="NoTraceNumber">Trace No. is required\n\n</string>
+    
+    <string name="NoStoreTypeVal">Store Type Others: Please enter a value\n\n</string>
+    
+    <string name="RefuseTestBuyMandadory">Refused Test buy should be selected if theres no retailer number \n\n</string>
+    <string name="SelectEitherCheckOrNumber">Refuse test buy or Trace Number is Required. Select either one only.\n\n</string>
+    
+    
+</resources>

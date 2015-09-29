@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="establishments">
+        <item>High School</item>
+        <item>College/University</item>
+        <item>Offices</item>
+        <item>Industrial/Factories</item>
+        <item>Residential</item>
+        <item>Transportation</item>
+        <item>Market</item>
+        <item>None</item>
+    </string-array>
+</resources>

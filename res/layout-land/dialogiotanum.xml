@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:gravity="center" android:padding="10dp">
+    <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/tvSample" android:text="@string/enteriotanum"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone" android:id="@+id/d_etMobtel">
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+        <Button android:text="@string/OK" android:layout_width="wrap_content" android:width="80dp" android:layout_height="wrap_content" android:id="@+id/d_btnOK"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/d_btnCancel" android:text="@string/Cancel" android:width="80dp"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

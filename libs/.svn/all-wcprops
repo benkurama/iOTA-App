@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/android/!svn/ver/3/trunk/workspace/iOTA/libs
+END
+httpcore-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/3/trunk/workspace/iOTA/libs/httpcore-4.3.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/android/!svn/ver/3/trunk/workspace/iOTA/libs/android-support-v4.jar
+END
+httpmime-4.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/android/!svn/ver/3/trunk/workspace/iOTA/libs/httpmime-4.3.1.jar
+END
+httpclient-4.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/3/trunk/workspace/iOTA/libs/httpclient-4.3.1.jar
+END
